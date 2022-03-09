@@ -8,15 +8,12 @@ body {
 .container {
     background: #1F2937;
     padding: 10px;
-    
-    
-    
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .left, .right {
@@ -28,6 +25,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    margin: 0;
 }
 
 ul {
@@ -42,16 +40,37 @@ ul {
 .description {
     font-size: 18px;
     color: #E5E7EB;
-
-
 }
 
 .content {
     display: flex;
-    align-items: center;
     justify-content: center;
-    
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
 
+.placeholder {
+    max-width: 400px;
+}
+
+.signup {
+    background-color:#3882F6;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 17px;
+    color:#F9FAF8;
+    padding: 5px;
+    margin-top: 10px;
+    width: 130px;
+
+}
+
+img {
+    width: 500px;
+    height: auto;
+    
 }
 
 .text-item {
@@ -61,6 +80,7 @@ ul {
 .title {
    font-size: 48px;
    font-weight: bolder;
-   color: #F9FAF8
+   color: #F9FAF8;
+   margin-bottom: 10px;
 }
 
