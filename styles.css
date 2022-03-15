@@ -16,6 +16,10 @@ body {
     background-color:#1F2937;
 }
 
+.first {
+    padding-bottom: 100px;
+}
+
 .second {
     text-align: center;
     padding-bottom: 100px;
@@ -26,6 +30,42 @@ body {
     background-color: #E5E7EB;
     align-items: center;
     padding: 70px;
+}
+
+.fourth {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textbox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.bluebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.call-title {
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+}
+
+.signup-text {
+    color:white;
+    padding: 0;
+    margin: 0;
 }
 
 .paragraph {  
@@ -46,7 +86,6 @@ body {
     justify-content: flex-end;
     font-size: 23px;
     font-weight: 800;
-
 }
 
 .box {
@@ -68,9 +107,6 @@ body {
     color:rgb(61, 60, 60);
     gap: 10px;
 }
-
-
-
 
 h1 {
     font-size: 36px;
@@ -144,15 +180,18 @@ ul {
     width: 130px;
 }
 
+.white-border {
+    border: 2px solid white;
+}
+
+
 
 .left, .right {
     display: flex;
     align-items: center;
 }
 
-.first {
-    padding-bottom: 100px;
-}
+
 
 
 
